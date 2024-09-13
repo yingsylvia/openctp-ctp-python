@@ -2,8 +2,9 @@ import sys
 import time
 import os
 import threading
-from openctp_ctp import tdapi
-# import thosttraderapi as tdapi
+
+from openctp_ctp import thosttraderapi
+import thosttraderapi as tdapi
 
 
 class TdImpl(tdapi.CThostFtdcTraderSpi):
